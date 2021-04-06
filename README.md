@@ -1,6 +1,7 @@
 # pokemon_app
 
 A new Flutter application.
+Can be used to acquire every particular information regarding the pokemons.
 
 ## Getting Started
 
