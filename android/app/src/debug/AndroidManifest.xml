@@ -1,7 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pokemon_app">
-    <!-- Flutter needs it to communicate with the running application
+
+    <application
+        xmlns:tools="http://schemas.android.com/tools"
+        android:name="io.flutter.app.FlutterApplication"
+        tools:replace="android:label"
+        android:label="receipt"
+        android:usesCleartextTraffic="true"
+    android:icon="@mipmap/ic_launcher"> </application>
+    <!-- Flutter needs it to qqcommunicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
+
